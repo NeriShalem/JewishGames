@@ -1,0 +1,31 @@
+.navBar{
+    margin: 0;
+    padding: 0;
+    width: 100%;
+    background: rgba(201, 255, 255, 0.722);
+    direction: ltr;
+    display: flex;
+    justify-content: left;
+    align-items: center;
+   
+}
+
+
+.navBarLinks a{
+  
+    color: black;
+        text-align: center;
+        padding: 7px 9px;
+        text-decoration: none;
+        font-size: 17px;
+}
+
+
+.logoGameWorld{
+    width: 220px;
+}
+
+.sound{
+
+    align-items: end;
+}
