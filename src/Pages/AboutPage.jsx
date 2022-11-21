@@ -1,9 +1,11 @@
 import React from "react";
+import TitleTextPage from "./TitleTextPage";
 
 function AboutPage(props) {
   return (
     <div className="aboutPage">
-      <h1> About Page</h1>
+      <TitleTextPage title={"About"} />
+
     </div>
   );
 }

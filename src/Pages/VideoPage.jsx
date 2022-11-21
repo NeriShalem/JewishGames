@@ -1,9 +1,11 @@
 import React from "react";
+import TitleTextPage from "./TitleTextPage";
 
 function VideoPage(props) {
   return (
     <div className="videoPage">
-      <h1> Video Page</h1>
+      <TitleTextPage title={"Video"} />
+
     </div>
   );
 }

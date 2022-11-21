@@ -7,7 +7,6 @@ import imgPlay from "../../../assets/img/icon/sound/play.jpeg";
 import imgMute from "../../../assets/img/icon/sound/mute.jpeg";
 import imgUnMute from "../../../assets/img/icon/sound/unmute.jpeg";
 
-// /assets/sound/hb.wav";
 
 const sounds = {
   backgroundSound: new Howl({
@@ -44,14 +43,14 @@ function Sound() {
   return (
     <>
       <div className={"buttonPlay"} style={stylePlay} onClick={play}>
-        <img src={imgPlay} alt="play" height="80" width="100" />
+        <img src={imgPlay} alt="play" height="25px" width="25px" />
       </div>
       <div
         className={"buttonMute"}
         onClick={muteBackgroundSound}
         style={styleMute}
       >
-        <img src={imgShow} alt="play" height="80" width="100" />
+        <img src={imgShow} alt="play" height="25px" width="25px" />
       </div>
     </>
   );

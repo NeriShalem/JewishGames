@@ -1,0 +1,10 @@
+.boardHomePage {
+    position: absolute;
+    width: 90vw;
+    height: 38vw;
+    left: 50px;
+    top: 8.5vw;
+    background: #ffffff9c;
+    border-radius: 7px;
+    box-shadow: 10px 10px 20px 1px rgb(192, 192, 192);
+}
