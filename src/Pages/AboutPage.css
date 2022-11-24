@@ -1,0 +1,16 @@
+.CompTitleTextPage {
+    display: flex;
+    flex-direction: column;
+}
+
+.aboutPage {
+    display: flex;
+
+}
+
+.parAboutPage {}
+
+p {
+    font-family: cursive;
+    font-size: large;
+}

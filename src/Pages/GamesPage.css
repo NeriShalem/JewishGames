@@ -1,6 +1,31 @@
+.gamePage {
+    display: flex;
+}
+
+.gamePageTitle {
+    /* display: flex; */
+    width: 30%;
+    background-color: aliceblue;
+}
+
+.gameListBoard {
+    padding: 0;
+    margin: 0;
+    width: 70%;
+    background-color: #646452;
+}
+
+.gameList {
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+    padding-top: 10px;
+    padding-inline: 10px;
+}
+
 .squareGameLink {
     text-decoration: none;
-
+    margin: 5px;
     width: 200px;
     height: 200px;
     background: #f5a523bb;
