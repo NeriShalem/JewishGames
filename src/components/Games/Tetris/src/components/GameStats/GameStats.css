@@ -1,8 +1,8 @@
 .GameStats {
   position: absolute;
-  width: 22vw;
+  width: 33vw;
   list-style-type: none;
-  color: rgba(255, 255, 255, 0.5);
+  color: rgb(0, 0, 0)
 }
 
 .GameStats__left {
@@ -20,5 +20,5 @@
 .GameStats .value {
   font-size: 2.8rem;
   margin-bottom: 0.5em;
-  color: rgba(255, 255, 255, 1);
+  color: rgb(20, 59, 104);
 }

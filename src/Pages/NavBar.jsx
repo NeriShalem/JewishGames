@@ -16,6 +16,10 @@ function NavBar(props) {
               alt="logoGameWorld"
             />
           </Link>
+
+        </div>
+        <div className="sound">
+          <Sound />
         </div>
         <Link className="navBarLink homeLink" to="/">
           Home
@@ -34,9 +38,7 @@ function NavBar(props) {
         </Link>
       </div>
 
-      <div className="sound">
-        <Sound />
-      </div>
+
     </div >
   );
 }
