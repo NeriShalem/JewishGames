@@ -9,20 +9,26 @@
 }
 
 .gameListBoard {
+    display: flex;
     padding: 0;
     margin: 0;
     width: 70%;
+    flex-wrap: wrap;
+    justify-content: flex-end;
+
     /* background-color: #646452; */
 }
 
 .gameList {
     display: flex;
-    justify-content: space-around;
-    flex-wrap: wrap;
     padding-top: 10px;
     padding-inline: 10px;
 }
 
+/*
+please choose a css class convention like snake-case or camelCase
+square-game-link or square_game_link
+*/
 .squareGameLink {
     text-decoration: none;
     margin: 5px;
