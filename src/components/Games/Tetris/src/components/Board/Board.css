@@ -1,0 +1,11 @@
+.Board {
+  margin: 0em auto;
+  display: grid;
+  grid-gap: 2px;
+  width: 19vw;
+  height: 32vw;
+  background: rgb(32, 0, 64);
+  border: 10px solid rgb(32, 0, 64);
+  border-radius: 10px;
+  box-shadow: rgb(0 0 0 / 35%) 0px 5px 15px;
+}

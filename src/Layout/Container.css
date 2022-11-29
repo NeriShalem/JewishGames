@@ -1,0 +1,13 @@
+.Container {
+    position: absolute;
+    width: 90vw;
+    height: 30vw;
+    left: 3.5vw;
+    top: 10.5vw;
+
+    /* border-radius: 7px; */
+    /* background: #ffffff9c;
+    box-shadow: 10px 0px 20px 1px rgb(192, 192, 192); */
+    /** for the child **/
+    display: flex;
+}

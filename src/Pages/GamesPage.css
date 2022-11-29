@@ -1,0 +1,70 @@
+.gamePage {
+    display: flex;
+}
+
+.gamePageTitle {
+    /* display: flex; */
+    width: 30%;
+    /* background-color: aliceblue; */
+}
+
+.gameListBoard {
+    padding: 0;
+    margin: 0;
+    width: 70%;
+    /* background-color: #646452; */
+}
+
+.gameList {
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+    padding-top: 10px;
+    padding-inline: 10px;
+}
+
+.squareGameLink {
+    text-decoration: none;
+    margin: 5px;
+    width: 200px;
+    height: 200px;
+    background: #f5a523bb;
+    border-radius: 30px 0px 30px;
+
+}
+
+
+.GameImgLink {
+
+    padding-top: 8px;
+    padding-bottom: 0px;
+    width: 80%;
+    border-radius: 30px 0px 30px;
+}
+
+.LinkGameLink {
+    text-decoration: none;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    color: #646452;
+    margin: 0;
+}
+
+
+.LinkGameLink {
+    background:
+        linear-gradient(to right,
+            rgba(100, 200, 200, 1),
+            rgba(100, 200, 200, 1)),
+        linear-gradient(to right,
+            rgba(255, 0, 0, 1),
+            rgba(255, 0, 180, 1),
+            rgba(0, 100, 200, 1));
+    background-size: 100% 3px, 0 3px;
+    background-position: 100% 100%, 0 100%;
+    background-repeat: no-repeat;
+    transition: background-size 400ms;
+}
+
+.LinkGameLink:hover {
+    background-size: 0 3px, 100% 3px;
+}

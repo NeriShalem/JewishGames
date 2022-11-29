@@ -1,0 +1,22 @@
+.aboutPage {
+    display: flex;
+    justify-content: center;
+    padding: 0;
+    margin: 0;
+}
+
+.titleAboutPage {
+    width: 30%;
+}
+
+
+.parAboutPage {
+    width: 68%;
+}
+
+p {
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    color: rgb(99, 87, 18);
+    text-align: justify;
+    text-align-last: center;
+}

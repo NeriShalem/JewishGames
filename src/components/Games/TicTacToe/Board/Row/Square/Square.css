@@ -1,0 +1,11 @@
+.square{
+    height: 50px;
+    width: 50px;
+    border: 6px solid rgb(231, 2, 2);
+    background: white;
+    
+}
+
+.square[span]{
+    color: red;
+}
