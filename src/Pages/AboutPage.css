@@ -20,3 +20,8 @@ p {
     text-align: justify;
     text-align-last: center;
 }
+
+#contributionsPar{
+    font-size: 0.6em;
+    justify-items: end;
+}
