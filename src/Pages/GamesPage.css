@@ -3,9 +3,7 @@
 }
 
 .gamePageTitle {
-    /* display: flex; */
     width: 30%;
-    /* background-color: aliceblue; */
 }
 
 .gameListBoard {
@@ -14,9 +12,8 @@
     margin: 0;
     width: 70%;
     flex-wrap: wrap;
-    justify-content: flex-end;
+    justify-content: center;
 
-    /* background-color: #646452; */
 }
 
 .gameList {
@@ -24,6 +21,10 @@
     padding-top: 10px;
     padding-inline: 10px;
 }
+
+
+
+
 
 /*
 please choose a css class convention like snake-case or camelCase

@@ -6,17 +6,16 @@ import "./Video.css";
 const Video = (src) => {
 
     return (
-        <div>
-            hello
+        <>
             <Player
-                fluid="false"
-                height="200"
-                width="200"
+                fluid={false}
+                height={400}
+                width={750}
                 playsInline
                 poster="/assets/poster.png"
                 src={"../src/components/assets/video/NissimBlack.mp4"}
             />
-        </div>
+        </>
     );
 };
 

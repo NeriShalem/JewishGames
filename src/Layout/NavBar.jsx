@@ -3,9 +3,9 @@ import { Link } from "react-router-dom";
 import "./NavBar.css";
 import Sound from "../components/assets/sound/Sound";
 import logoGameWorld from "../assets/img/logo/logoGameWorld.svg";
+
 function NavBar(props) {
   return (
-
     <div>
       <div className="navBar">
         <div className="boardLogoNavBar">
@@ -16,7 +16,6 @@ function NavBar(props) {
               alt="logoGameWorld"
             />
           </Link>
-
         </div>
         <div className="sound">
           <Sound />
@@ -37,9 +36,7 @@ function NavBar(props) {
           About
         </Link>
       </div>
-
-
-    </div >
+    </div>
   );
 }
 
