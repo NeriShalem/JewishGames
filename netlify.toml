@@ -1,0 +1,21 @@
+[dev]
+  command = "npm run dev"
+  publish = "dist"
+  # We need another port for the application because Vite occupies the 3000.
+  port = 8080
+
+[build]
+  command = "npm run build"
+  publish = "dist"
+
+[functions]
+  # We are goint to use ES modules so we need esbuild to transpile the code.
+  node_bundler = "esbuild"
+  # This line will include into the environment a file with the mock data.
+  included_files = ["data/*.json"]
+
+# We have to tell the Netlify that this URL will be served by the books.js function.
+[[redirects]]
+  from = "/api/books"
+  to = "/.netlify/functions/books"
+  status = 200
