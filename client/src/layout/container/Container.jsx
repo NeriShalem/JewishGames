@@ -2,8 +2,8 @@ import React from "react";
 import { useState } from "react";
 import "./Container.css";
 
-import TitlePage from "./TtilePage.jsx";
-import Pages from "./Pages.jsx";
+import TitlePage from "./titlePage/TtilePage";
+import Pages from "../container/pages/Pages";
 
 function Container(props) {
   const [title, setTtitle] = useState("Home");

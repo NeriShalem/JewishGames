@@ -2,15 +2,17 @@ import React from "react";
 import { Routes, Route, Link } from "react-router-dom";
 import "./Pages.css";
 // pages in site
-import GamesPage from "../Pages/GamesPage.jsx";
-import AboutPage from "../Pages/AboutPage.jsx";
-import VideoPage from "../Pages/VideoPage.jsx";
-import HomePage from "../Pages/HomePage.jsx";
+import GamesPage from "../../../pages/gamesPage/GamesPage";
+import AboutPage from "../../../pages/aboutPage/AboutPage"
+import VideoPage from "../../../pages/videoPage/VideoPage";
+import HomePage from "../../../pages/homePage/HomePage";
 
 // Games components
-import MemoryGame from "../components/Games/MemoryGame/UIMemoryGame.jsx";
-import TicTacToe from "../components/Games/TicTacToe/TicTacToe.jsx";
-import AppTetris from "../components/Games/Tetris/src/AppTetris.jsx";
+import MemoryGame from "../../../components/games/MemoryGame/UIMemoryGame.jsx";
+import TicTacToe from "../../../components/games/TicTacToe/TicTacToe.jsx";
+import AppTetris from "../../../components/games/Tetris/src/AppTetris.jsx";
+
+
 
 const Pages = ({ setTtitle }) => {
   return (

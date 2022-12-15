@@ -2,7 +2,7 @@ import React from "react";
 import { Link } from "react-router-dom";
 import { useState } from "react";
 
-import { GAMES_LIST } from "../constants/games.js";
+import { GAMES_LIST } from "../../constants/games";
 import "./GamesPage.css";
 
 const GamesPage = ({ setTtitle }) => {

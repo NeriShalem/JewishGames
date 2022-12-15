@@ -4,7 +4,6 @@ import { Player } from 'video-react';
 import "./Video.css";
 
 const Video = (src) => {
-
     return (
         <>
             <Player

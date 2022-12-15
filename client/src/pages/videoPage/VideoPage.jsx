@@ -3,7 +3,7 @@ import { useState } from "react";
 
 import "./VideoPage.css";
 
-import Video from "../components/assets/video/Video.jsx";
+import Video from "../../components/assets/video/Video";
 
 function VideoPage({ setTtitle }) {
   setTtitle("Video");

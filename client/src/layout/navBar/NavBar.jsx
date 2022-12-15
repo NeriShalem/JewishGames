@@ -1,8 +1,8 @@
 import React from "react";
 import { Link } from "react-router-dom";
 import "./NavBar.css";
-import Sound from "../components/assets/sound/Sound.jsx";
-import logoGameWorld from "../assets/img/logo/logoGameWorld.svg";
+import Sound from "../../components/assets/sound/Sound";
+import logoGameWorld from "../../assets/img/logo/logoGameWorld.svg";
 
 function NavBar(props) {
   return (

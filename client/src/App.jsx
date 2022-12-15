@@ -1,6 +1,6 @@
 import "./App.css";
-import Container from "./Layout/Container.jsx";
-import NavBar from "./Layout/NavBar.jsx";
+import Container from "./Layout/Container/Container";
+import NavBar from "./Layout/NavBar/NavBar";
 
 
 

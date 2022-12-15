@@ -1,7 +1,7 @@
 import React from "react";
 import { Link } from "react-router-dom";
 import "./TtitlePage.css";
-import TitleText from "../components/assets/TitleText/TitleText.jsx";
+import TitleText from "../../../components/assets/TitleText/TitleText";
 
 const TitlePage = ({ title }) => {
   return (
